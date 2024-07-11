@@ -4,7 +4,8 @@
   "description": "Recipe App",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./index.html"
+    "dev": "vite",
+  "build": "vite build"
   },
   "author": "Ahmed Fouda",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "core-js": "^3.37.0",
     "fractional": "^1.0.0",
     "mode": "^0.3.2",
-    "regenerator-runtime": "^0.14.1"
+    "regenerator-runtime": "^0.14.1",
+    "vite": "^5.3.3"
   }
 }
